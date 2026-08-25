@@ -1,8 +1,8 @@
 # AgentForge
 
-AgentForge is an open source, agentic AI template for building conversational business copilots with a clear tool-calling workflow.
+AgentForge is an open‑source, agentic AI template application designed to help teams quickly onboard their existing knowledge, tools, or data sources into an agentic workflow. It provides a ready‑to‑extend foundation for building conversational business copilots with structured tool‑calling and reasoning patterns.
 
-It uses an MCP-Style server implemented as a REST-based FastAPI service, where tool metadata and tool invocations are exposed over HTTP endpoints. The sample domain focuses on media rights (contracts, amortization, costs, payments, and closing data), but the architecture is reusable across domains.
+The system uses an MCP‑style server implemented as a REST‑based FastAPI service, exposing tool metadata and tool invocations through clean HTTP endpoints. While the sample implementation focuses on media‑rights workflows (contracts, amortization, costs, payments, and closing data), the architecture is intentionally domain‑agnostic — allowing developers to adapt or extend it for any business vertical with minimal effort.
 
 ## Why AgentForge
 
